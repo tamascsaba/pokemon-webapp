@@ -3,7 +3,6 @@ import { ActivatedRoute, Params } from '@angular/router';
 
 import { PokemonService } from '../service/pokemon.service';
 import { hs } from '../app.utility';
-import { moveMessagePortToContext } from 'worker_threads';
 
 @Component({
   selector: 'app-pokemon',
